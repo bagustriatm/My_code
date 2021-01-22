@@ -1,0 +1,19 @@
+name = input("NAMA MU, BUKAN NAMA KUCING MU: ")
+height = float(input("KENAPA HARUS TINGGI BADAN, BUKAN PENDEK BADAN: "))
+weight = float(input("MASA TUBUH, KALAU BERAT SATUANYA NEWTON: "))
+print("SELAMAT INDEKS MASSA TUBUH ANDA: ", round(weight / (height * height), 2))
+
+a = weight / (height * height)
+if  a < 18.5 or a > 20:
+        print("HAI",name,",Massa",name,"tidak ideal")
+else:
+        print("HAI",name,",Massa",name,"ideal")
+
+print('''
+TERIMAKASIH SUDAH MENGGUNAKAN
+PELAYANAN KAMI
+
+Cp. +6282145198847
+Jl Telekomunikasi Terusan Buah Batu No.1
+~SALAM PRAMUKA~
+''')
